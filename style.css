@@ -6,6 +6,7 @@ body{
     padding: 0;
     font-family: 'Roboto', sans-serif;
     color:rgb(39, 37, 37);
+    background-color: rgb(230, 224, 224);
 }
 
 nav{
@@ -38,16 +39,37 @@ nav li{
 
 }
 
+.banner{
+    margin:auto;
+    /* border:1px solid red; */
+    text-align: center;
+}
+
 .banner-img{
-    width:500px;
+    width:600px;
+    /* border: 1px solid black; */
+    position: absolute;
+    top:100px;
 }
 
 .slogan{
+    /* border: 1px solid green; */
     font-family: 'EB Garamond', serif;
+    margin-left: 6rem;
+    margin-top: 6rem;
+    text-align: left;
+    width:50%;
 }
 
 .slogan h1{
     color:black;
+    font-size: 4rem;
+    width:90%;
+}
+
+.slogan p{
+    font-size: 1.3rem;
+    width:70%;
 }
 
 .dish-img{
