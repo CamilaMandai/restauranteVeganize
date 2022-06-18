@@ -17,3 +17,8 @@
 .seta i{
     color:white;
 }
+
+.client-img{
+    width:100px;
+    border-radius: 10%;
+}
