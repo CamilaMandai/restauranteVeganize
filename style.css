@@ -27,6 +27,10 @@
     width:800px;
 }
 
+.gallery{
+}
+
 .gallery-pic{
     width:300px;
+    border-radius: 10%;
 }
