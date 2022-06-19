@@ -112,14 +112,24 @@ nav li{
     z-index:1;
 }
 
+p.price{
+    text-align: right;
+    width: 90%;
+    margin-top: 40px;
+}
+
 .seta{
     background-color: #81131e;
     width: 50px;
     height: 50px;
     border-radius:50%;
     position: relative;
-   
 }
+
+.seta:hover{
+    cursor: pointer;
+}
+
 .seta i{
     color:white;
     position: relative;
@@ -138,9 +148,44 @@ nav li{
     left:75.5rem;
 }
 
+.testimonials{
+    text-align: center;
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 80px;
+    padding-left: 35px;
+}
+
+
+.card-client{
+    display: inline-block;
+    width:20%;
+    vertical-align: top;
+}
+
+.testimonials h3{
+    font-size: 50px;
+    font-family: 'EB Garamond', serif;
+    font-weight: 100;
+}
+
+.card-client p{
+    width:80%;
+    font-style: italic;
+    margin-top: 30px;
+    text-align: right;
+}
+
+.client-name{
+    text-align: right;
+    width: 80%;
+}
+
 .client-img{
-    width:100px;
+    text-align: center;
+    width:200px;
     border-radius: 10%;
+    margin-right: 2rem;
 }
 
 .team-img{
