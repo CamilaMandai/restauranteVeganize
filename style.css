@@ -259,8 +259,6 @@ div.gallery-pictures{
     width:80%;
     margin: auto;
 }
-
- 
 .gallery-pic{
     width:100%;
     height: 100%;
@@ -270,9 +268,7 @@ div.gallery-pictures{
 
 footer{
     background-color: greenyellow;
-    padding: 20px;
-    text-align: center;
-    margin-top:30px;
+    padding: 50px;
 }
 
 footer li{
@@ -283,4 +279,21 @@ footer ul{
     padding: 0;
     margin: 0;
     width:100%;
+}
+
+.horario,.contato{
+    display: inline-block;
+}
+
+.horario{
+    width:40%;
+    padding-left: 5rem;
+}
+.horario p{
+    font-weight: 600;
+}
+
+.contato{
+    text-align: right;
+    font-weight: 600;
 }
