@@ -226,11 +226,15 @@ aside h3{
     display: inline-block;
 }
 
-.gallery{
-    clear: both;
+.gallery-pictures{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1/2fr 1/2fr 1fr 1/2fr
+                        1fr   1/2fr 1fr 1/2fr;
 }
-
+ 
 .gallery-pic{
     width:300px;
     border-radius: 10%;
+    vertical-align: middle;
 }
