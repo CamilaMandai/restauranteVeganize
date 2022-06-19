@@ -5,6 +5,7 @@ body{
     margin:0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
     color:rgb(39, 37, 37);
     background-color: rgb(230, 224, 224);
 }
@@ -188,11 +189,45 @@ p.price{
     margin-right: 2rem;
 }
 
+aside{
+    padding:20px;
+}
+
+.team{
+    padding: 0;
+}
+
+.about{
+    vertical-align: middle;
+    padding: 0;
+    display: inline-block;
+    width:30%;
+    margin-left: 50px;
+    margin-top: 0;
+    line-height: 2rem;
+    padding: 20px;
+    border-radius: 10%;
+    text-align: right;
+    color:rgb(65, 68, 65)
+}
+
+aside h3{
+    font-weight: 100;
+    color:black;
+    font-size: 1.5rem;
+    text-transform:uppercase;
+    font-family: 'EB Garamond', serif;
+    text-align: center;
+}
+
 .team-img{
-    width:800px;
+    vertical-align: middle;
+    width:60%;
+    display: inline-block;
 }
 
 .gallery{
+    clear: both;
 }
 
 .gallery-pic{
