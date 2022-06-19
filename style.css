@@ -296,4 +296,6 @@ footer ul{
 .contato{
     text-align: right;
     font-weight: 600;
+    padding-right: 0;
+    margin-left: 10rem;
 }
